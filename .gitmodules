@@ -1,0 +1,4 @@
+[submodule "themes/hugo-izdi"]
+	path = themes/hugo-izdi
+	url = https://github.com/izdi/hugo-izdi.git
+	branch = master
