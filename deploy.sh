@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # TODO: improve build via args
-hugo -t hugo-zd --buildDrafts
+hugo -t hugo-zd
 
 git add -A
 
