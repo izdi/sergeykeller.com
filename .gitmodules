@@ -1,3 +1,4 @@
 [submodule "themes/hugo-zd"]
 	path = themes/hugo-zd
 	url = https://github.com/izdi/hugo-zd
+	branch = master
