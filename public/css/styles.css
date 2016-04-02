@@ -1,51 +1,36 @@
 /* index.html */
 @import url(http://fonts.googleapis.com/css?family=Roboto:300);
 * {
-    box-sizing: border-box;
-}
-
-html, body {
+    box-sizing: border-box; }
+  html, body {
     font-family: 'Roboto', 'Arial', sans-serif;
     height: 100%;
     margin: 0;
     padding: 0;
-    position: relative;
-}
-
-main {
-  position: fixed;
-  left: 10px;
-  right: 10px;
-  top: 10px;
-  bottom: 10px;
-}
+    position: relative; }
+  main {
+    position: fixed;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px; }
 
 /* Scroll */
 body::-webkit-scrollbar-track {
-    background-color: #fff;
-}
-
-body::-webkit-scrollbar {
+    background-color: #fff; }
+  body::-webkit-scrollbar {
     width: 1px;
-    background-color: #fff;
-}
-
-body::-webkit-scrollbar-thumb {
-    background-color: rgb(130, 115, 99);
-}
+    background-color: #fff; }
+  body::-webkit-scrollbar-thumb {
+    background-color: #827717; }
 
 /* MDL Shadows */
 .shadow--2dp {
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
-}
-
-.shadow--3dp {
-  box-shadow: 0 3px 4px 0 rgba(0,0,0,.14),0 3px 3px -2px rgba(0,0,0,.2),0 1px 8px 0 rgba(0,0,0,.12);
-}
-
-.shadow--4dp {
-  box-shadow: 0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2);
-}
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12); }
+  .shadow--3dp {
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,.14),0 3px 3px -2px rgba(0,0,0,.2),0 1px 8px 0 rgba(0,0,0,.12);  }
+  .shadow--4dp {
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2); }
 
 /*!
  * Hamburger customization
@@ -69,9 +54,9 @@ body::-webkit-scrollbar-thumb {
   margin: 0;
   overflow: visible;
   border-radius: 50%;
-  top: 10px;
-  right: 10px;
-  position: absolute; }
+  top: 20px;
+  right: 20px;
+  position: fixed; }
   .toggle:hover {
     opacity: 0.7; }
 
@@ -88,7 +73,7 @@ body::-webkit-scrollbar-thumb {
   .toggle-inner, .toggle-inner::before, .toggle-inner::after {
     width: 23px;
     height: 2px;
-    background-color: rgb(130, 115, 99);
+    background-color: #827717;
     border-radius: 0;
     position: absolute;
     transition-property: -webkit-transform;
@@ -139,3 +124,28 @@ body::-webkit-scrollbar-thumb {
       transition: right 0.2s ease-out, top 0.05s 0.2s linear, -webkit-transform 0.2s 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
       transition: right 0.2s ease-out, top 0.05s 0.2s linear, transform 0.2s 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
       transition: right 0.2s ease-out, top 0.05s 0.2s linear, transform 0.2s 0.25s cubic-bezier(0.075, 0.82, 0.165, 1), -webkit-transform 0.2s 0.25s cubic-bezier(0.075, 0.82, 0.165, 1); }
+
+/* Navigation menu */
+nav {
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: opacity 0.2s ease 0.2s; }
+  nav.active {
+    opacity: 1;
+    transition: opacity 0.2s ease 0.2s; }
+  ul {
+    list-style-type: none;
+
+    text-align: center;
+    position: absolute;
+    line-height: 1.3;
+    top:  25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0; }
+  li {
+    font-size: 6vw;
+    color: #827717;
+  }
