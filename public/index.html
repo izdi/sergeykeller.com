@@ -16,12 +16,19 @@
       <main class="shadow--2dp">
         <nav>
           <ul>
-            <li>Home</li>
-            <li>TISHLB</li>
-            <li>self</li>
+            <li class="shadow--3dp">
+              <a href="http://izdi.pro/">Home</a>
+            </li>
+            <li class="shadow--3dp">
+              <a href="#">TISHLB</a>
+            </li>
+            <li class="shadow--3dp">
+              <a href="#">self</a>
+            </li>
           </ul>
         </nav>
       </main>
+
       <div class="toggle toggle--emphatic shadow--3dp">
         <div class="toggle-box">
           <div class="toggle-inner"></div>
@@ -30,11 +37,52 @@
 
       <script type="text/javascript">
         var toggle = document.querySelector(".toggle"),
-          nav = document.querySelector("nav");
+          navLinks = document.querySelectorAll("nav li"),
+          rippleEl = document.createElement("div"),
+          animEvents = [
+            "webkitAnimationEnd",
+            "oanimationend",
+            "msAnimationEnd",
+            "animationend"
+          ],
+          clickedNavBtn;
+
         toggle.addEventListener("click", function() {
           this.classList.toggle("active");
-          nav.classList.toggle("active");
+          for (var i = 0; i < navLinks.length; i++) {
+            navLinks[i].classList.toggle("active");
+            navLinks[i].addEventListener("click", function(e) {
+              e.preventDefault();
+
+              setTimeout(function () {
+                window.location.href = e.target.href;
+              }, 200);
+
+              rippleEl.setAttribute("class", "ripple");
+
+              clickedNavBtn = this.getBoundingClientRect();
+
+              rippleEl.style.left = (e.pageX - clickedNavBtn.left) + "px";
+              rippleEl.style.top = (e.pageY - clickedNavBtn.top) + "px";
+
+              if (this.offsetWidth > this.offsetHeight) {
+                rippleEl.style.width = this.offsetWidth + "px";
+                rippleEl.style.height = this.offsetWidth + "px";
+              } else {
+                rippleEl.style.width = this.offsetHeight + "px";
+                rippleEl.style.height = this.offsetHeight + "px";
+              }
+
+              animEvents.forEach(function(event) {
+                rippleEl.addEventListener(event, function() {
+                  this.remove();
+                }, false);
+              });
+              this.appendChild(rippleEl);
+            });
+          }
         }, false);
+
       </script>
     </body>
 </html>

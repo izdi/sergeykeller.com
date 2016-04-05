@@ -1,7 +1,7 @@
 +++
 date = "2016-02-16T00:21:28+03:00"
-draft = true
-title = "about"
+draft = false
+title = "Self"
 +++
 
 Things I learned today, or should have learned by now.

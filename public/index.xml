@@ -6,15 +6,48 @@
     <description>Recent content on tishlbn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 16 Feb 2016 00:21:28 +0300</lastBuildDate>
     <atom:link href="http://izdi.pro/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title></title>
+      <title>Self</title>
+      <link>http://izdi.pro/self/</link>
+      <pubDate>Tue, 16 Feb 2016 00:21:28 +0300</pubDate>
+      
+      <guid>http://izdi.pro/self/</guid>
+      <description>&lt;p&gt;Things I learned today, or should have learned by now.&lt;/p&gt;
+
+&lt;p&gt;Who am I ? I work as a software engineer at wargaming.net, doing fullstack web development.
+I&amp;rsquo;m not great at writing and most of the time I won&amp;rsquo;t share some shocking stuff but this blog will be aimed at engineering, discovering, learning, loving (make love not war) etc.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Setup hosting</title>
       <link>http://izdi.pro/setup/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 16 Feb 2016 00:21:28 +0300</pubDate>
       
       <guid>http://izdi.pro/setup/</guid>
-      <description></description>
+      <description>
+
+&lt;h1 id=&#34;hosting:2cc0b07f42930e4520820be1fe66f913&#34;&gt;Hosting&lt;/h1&gt;
+
+&lt;p&gt;Available options:&lt;/p&gt;
+
+&lt;h4 id=&#34;bitbucket:2cc0b07f42930e4520820be1fe66f913&#34;&gt;&lt;em&gt;Bitbucket&lt;/em&gt;&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Comes with SSL&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Tedious to setup&lt;/p&gt;
+
+&lt;h4 id=&#34;gh-pages:2cc0b07f42930e4520820be1fe66f913&#34;&gt;&lt;em&gt;Gh-pages&lt;/em&gt;&lt;/h4&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Comes without SSL&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Easy to setup&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>
