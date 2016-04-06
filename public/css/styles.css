@@ -82,8 +82,6 @@ body::-webkit-scrollbar-thumb
     text-transform: none;
 
     color: inherit;
-    border: 0;
-    border-radius: 50%;
     background-color: transparent;
 }
 .toggle:hover
@@ -206,7 +204,7 @@ nav
 }
 nav ul
 {
-    line-height: 1.4;
+    line-height: 2;
 
     position: absolute;
     top: 25%;
@@ -224,13 +222,14 @@ nav li
     overflow: hidden;
 
     width: 20vw;
-    margin-bottom: 10px;
 
-    transition: all .4s ease-out;
+    transition: opacity .4s ease-out, transform .4s ease-out;
 
     opacity: 0;
     border-radius: 2px;
-    background: rgba(158,158,158,.05);
+}
+nav li:hover {
+    background: rgba(158,158,158,.1);
 }
 nav li.active
 {
@@ -266,8 +265,8 @@ nav a
 {
     position: absolute;
 
-    -webkit-animation: ripple 1.8s cubic-bezier(.23, 1, .32, 1);
-            animation: ripple 1.8s cubic-bezier(.23, 1, .32, 1);
+    -webkit-animation: ripple 0.6s cubic-bezier(.23, 1, .32, 1);
+            animation: ripple 0.6s cubic-bezier(.23, 1, .32, 1);
     pointer-events: none;
 
     border-radius: 50%;

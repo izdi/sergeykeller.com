@@ -16,20 +16,20 @@
       <main class="shadow--2dp">
         <nav>
           <ul>
-            <li class="shadow--3dp">
+            <li>
               <a href="http://izdi.pro/">Home</a>
             </li>
-            <li class="shadow--3dp">
+            <li>
               <a href="#">TISHLB</a>
             </li>
-            <li class="shadow--3dp">
+            <li>
               <a href="#">self</a>
             </li>
           </ul>
         </nav>
       </main>
 
-      <div class="toggle toggle--emphatic shadow--3dp">
+      <div class="toggle toggle--emphatic">
         <div class="toggle-box">
           <div class="toggle-inner"></div>
         </div>
@@ -65,13 +65,8 @@
               rippleEl.style.left = (e.pageX - clickedNavBtn.left) + "px";
               rippleEl.style.top = (e.pageY - clickedNavBtn.top) + "px";
 
-              if (this.offsetWidth > this.offsetHeight) {
-                rippleEl.style.width = this.offsetWidth + "px";
-                rippleEl.style.height = this.offsetWidth + "px";
-              } else {
-                rippleEl.style.width = this.offsetHeight + "px";
-                rippleEl.style.height = this.offsetHeight + "px";
-              }
+              rippleEl.style.width = 0.5 * this.offsetWidth + "px";
+              rippleEl.style.height = 0.5 * this.offsetWidth + "px";
 
               animEvents.forEach(function(event) {
                 rippleEl.addEventListener(event, function() {
