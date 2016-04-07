@@ -1,3 +1,16 @@
-baseurl = "http://izdi.pro/"
+baseurl = "https://izdi.pro/"
 languageCode = "en-us"
 title = "tishlbn"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 100
+[[menu.main]]
+    name = "TISHLBN"
+    url = "/posts/"
+    weight = 101
+[[menu.main]]
+    name = "self"
+    url = "/self/"
+    weight = 102
