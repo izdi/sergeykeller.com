@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="izdi" />
-    <meta name="description" content="Sergey Keller, Software Engineer, Minsk, Belarus, Wargaming.net" />
-    <meta name="ROBOTS" content="INDEX, FOLLOW" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta name="theme-color" content="#fff">
-    <meta name="generator" content="Hugo 0.15" />
-    <title>tishlbn</title>
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300">
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
+
+    <head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="author" content="izdi" />
+  <meta name="description" content="Sergey Keller, Software Engineer, Minsk, Belarus, Wargaming.net" />
+  <meta name="ROBOTS" content="INDEX, FOLLOW" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#fff">
+  <meta name="generator" content="Hugo 0.15" />
+  <title>tishlbn</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="canonical" href="https://izdi.pro/" />
+</head>
+
+
     <body>
       <main class="shadow--2dp">
-        <nav>
-          <ul>
-            <li>
-              <a href="http://izdi.pro/">Home</a>
-            </li>
-            <li>
-              <a href="#">TISHLB</a>
-            </li>
-            <li>
-              <a href="#">self</a>
-            </li>
-          </ul>
-        </nav>
+        <div class="the-guy">
+          <p>Не выходи из комнаты, не совершай ошибку.</p>
+          <p>Зачем тебе Солнце, если ты куришь Шипку?</p>
+          <p>За дверью бессмысленно все, особенно -- возглас счастья.</p>
+          <p>Только в уборную -- и сразу же возвращайся.</p>
+
+        </div>
       </main>
 
       <div class="toggle toggle--emphatic">
@@ -36,49 +34,56 @@
         </div>
       </div>
 
-      <script type="text/javascript">
-        var toggle = document.querySelector(".toggle"),
-          navLinks = document.querySelectorAll("nav li"),
-          rippleEl = document.createElement("div"),
-          animEvents = [
-            "webkitAnimationEnd",
-            "oanimationend",
-            "msAnimationEnd",
-            "animationend"
-          ],
-          clickedNavBtn;
+      <ul class="navigation">
 
-        toggle.addEventListener("click", function() {
-          this.classList.toggle("active");
-          for (var i = 0; i < navLinks.length; i++) {
-            navLinks[i].classList.toggle("active");
-            navLinks[i].addEventListener("click", function(e) {
-              e.preventDefault();
 
-              setTimeout(function () {
-                window.location.href = e.target.href;
-              }, 200);
+  <li class="navigation-item">
+    <a class="navigation-link" href="/">Home</a>
+  </li>
 
-              rippleEl.setAttribute("class", "ripple");
+  <li class="navigation-item">
+    <a class="navigation-link" href="/posts/">TISHLBN</a>
+  </li>
 
-              clickedNavBtn = this.getBoundingClientRect();
+  <li class="navigation-item">
+    <a class="navigation-link" href="/self/">self</a>
+  </li>
 
-              rippleEl.style.left = (e.pageX - clickedNavBtn.left) + "px";
-              rippleEl.style.top = (e.pageY - clickedNavBtn.top) + "px";
+</ul>
 
-              rippleEl.style.width = 0.5 * this.offsetWidth + "px";
-              rippleEl.style.height = 0.5 * this.offsetWidth + "px";
 
-              animEvents.forEach(function(event) {
-                rippleEl.addEventListener(event, function() {
-                  this.remove();
-                }, false);
-              });
-              this.appendChild(rippleEl);
-            });
-          }
-        }, false);
+  
+    
+  
+  
+    
+  
+  
+    
+  
 
-      </script>
+
+
+    <script type="text/javascript">
+      var toggle = document.querySelector(".toggle"),
+        main = document.querySelector("main"),
+        nav = document.querySelector(".navigation");
+        navLinks = document.querySelectorAll(".navigation-item");
+
+      toggle.addEventListener("click", function() {
+        this.classList.toggle("active");
+        nav.classList.toggle("active");
+        main.classList.toggle("hidden");
+        for (var i = 0; i < navLinks.length; i++) {
+          navLinks[i].classList.toggle("active");
+        }
+      }, false);
+
+    </script>
+    <script type="text/javascript">
+      var host = "izdi.pro";
+      if ((host == window.location.host) && (window.location.protocol != "https:"))
+          window.location.protocol = "https";
+    </script>
     </body>
 </html>
