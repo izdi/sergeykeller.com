@@ -1,4 +1,5 @@
 ### You've never blogged this way
+* [8. Saas LTV cheat sheet](https://www.dropbox.com/s/78jqoqbid64g7ec/The%20Ultimate%20SaaS%20LTV%20Cheat%20Sheet.pdf?dl=0)
 * [7. linux performance](http://www.brendangregg.com/linuxperf.html)
 * [6. coding productivity](https://blog.jetbrains.com/idea/2006/06/numbered-bookmarks/) 
 * [5. SaaS metrics cheat sheet](https://www.dropbox.com/s/uvdowibbm1wl1o4/The%20Ultimate%20SaaS%20Metrics%20Cheat%20Sheet.pdf?dl=0)
