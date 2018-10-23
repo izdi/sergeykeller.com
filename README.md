@@ -1,4 +1,5 @@
 ### You've never blogged this way
+* [9. (micro) business email cheat sheet](https://www.dropbox.com/s/tvof68hvhlji6xa/Pismo_mailru.pdf?dl=0)
 * [8. Saas LTV cheat sheet](https://www.dropbox.com/s/78jqoqbid64g7ec/The%20Ultimate%20SaaS%20LTV%20Cheat%20Sheet.pdf?dl=0)
 * [7. linux performance](http://www.brendangregg.com/linuxperf.html)
 * [6. coding productivity](https://blog.jetbrains.com/idea/2006/06/numbered-bookmarks/) 
