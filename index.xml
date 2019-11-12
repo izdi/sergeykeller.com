@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>~</title>
+    <link>https://izdi.github.io/</link>
+    <description>Recent content on ~</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Nov 2019 23:16:56 +0300</lastBuildDate>
+    
+	<atom:link href="https://izdi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Writing</title>
+      <link>https://izdi.github.io/posts/</link>
+      <pubDate>Sun, 10 Nov 2019 23:16:56 +0300</pubDate>
+      
+      <guid>https://izdi.github.io/posts/</guid>
+      <description>Fear While some people tell me that I should write down stuff I&amp;rsquo;d like to make an excuse of not doing so because of constant fear of doing something wrong or being showed up.</description>
+    </item>
+    
+    <item>
+      <title>You&#39;ve never blogged this way</title>
+      <link>https://izdi.github.io/useful-links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://izdi.github.io/useful-links/</guid>
+      <description> 9. (micro) business email cheat sheet 8. Saas LTV cheat sheet 7. linux performance 6. coding productivity 5. SaaS metrics cheat sheet 4. motivational 3. architectural 2. motivational 1. motivational 0. CV  </description>
+    </item>
+    
+  </channel>
+</rss>
