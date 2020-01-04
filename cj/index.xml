@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>~</title>
-    <link>https://izdi.github.io/</link>
-    <description>Recent content on ~</description>
+    <title>Cognitive (behavioral therapy) journaling on ~</title>
+    <link>https://izdi.github.io/cj/</link>
+    <description>Recent content in Cognitive (behavioral therapy) journaling on ~</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 10 Nov 2019 23:16:56 +0300</lastBuildDate>
     
-	<atom:link href="https://izdi.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://izdi.github.io/cj/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       <guid>https://izdi.github.io/cj/fear/</guid>
       <description>Intro To me, fear of publicity correlates with my childhood environment. A small settlement Topar, 70km away from Karaganda, Kazakhstan. Talking or writing about your thoughts in public space is something that I skip subconsciously but I feel why.
 This is a situation where I have to show up my skills, achievements, my self — you better watch out boy because you don&amp;rsquo;t want troubles when the drunken father is watching.</description>
-    </item>
-    
-    <item>
-      <title>You&#39;ve never blogged this way</title>
-      <link>https://izdi.github.io/useful-links/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://izdi.github.io/useful-links/</guid>
-      <description> 9. (micro) business email cheat sheet 8. Saas LTV cheat sheet 7. linux performance 6. coding productivity 5. SaaS metrics cheat sheet 4. motivational 3. architectural 2. motivational 1. motivational 0. CV  </description>
     </item>
     
   </channel>
