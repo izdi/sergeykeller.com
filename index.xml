@@ -6,10 +6,20 @@
     <description>Recent content on ~</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Nov 2019 23:16:56 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 11 Feb 2020 21:42:03 +0300</lastBuildDate>
     
 	<atom:link href="https://izdi.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Churn</title>
+      <link>https://izdi.github.io/churn/</link>
+      <pubDate>Tue, 11 Feb 2020 21:42:03 +0300</pubDate>
+      
+      <guid>https://izdi.github.io/churn/</guid>
+      <description> Product Tank, 2020 Preso: Churn
+Reads  https://www.youtube.com/watch?v=BOd1W3kJLjI https://www.forentrepreneurs.com/why-churn-is-critical-in-saas/ https://www.intercom.com/blog/designing-user-offboarding/ https://medium.com/mittmedia/we-looked-into-why-our-subscribers-churned-with-machine-learning-d1ac1adf8009 – Product-Led Growth, Chapter 15  </description>
+    </item>
     
     <item>
       <title>Fear</title>
