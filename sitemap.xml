@@ -3,17 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://sergeykeller.com/churn/</loc>
-    <lastmod>2023-01-11T21:42:03+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sergeykeller.com</loc>
+    <loc>https://izdi.github.io/churn/</loc>
     <lastmod>2020-02-11T21:42:03+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sergeykeller.com/useful-links/</loc>
+    <loc>https://izdi.github.io/</loc>
+    <lastmod>2020-02-11T21:42:03+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://izdi.github.io/obsidian/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://izdi.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://izdi.github.io/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://izdi.github.io/useful-links/</loc>
   </url>
   
 </urlset>
